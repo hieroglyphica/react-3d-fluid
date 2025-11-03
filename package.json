@@ -1,0 +1,58 @@
+{
+  "name": "react-3d-fluid",
+  "private": false,
+  "version": "0.1.0",
+  "description": "3D Navier–Stokes fluid simulation for React using WebGL (coming soon)",
+  "type": "module",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "react",
+    "3d",
+    "fluid",
+    "webgl",
+    "shader",
+    "navier-stokes",
+    "fluid-simulation",
+    "physics",
+    "simulation"
+  ],
+  "author": "hieroglyphica",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hieroglyphica/react-3d-fluid.git"
+  },
+  "homepage": "https://github.com/hieroglyphica/react-3d-fluid#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.36.0",
+    "@types/react": "^19.1.16",
+    "@types/react-dom": "^19.1.9",
+    "@vitejs/plugin-react": "^5.0.4",
+    "eslint": "^9.36.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.22",
+    "globals": "^16.4.0",
+    "vite": "npm:rolldown-vite@7.1.14"
+  },
+  "resolutions": {
+    "vite": "npm:rolldown-vite@7.1.14"
+  }
+}
